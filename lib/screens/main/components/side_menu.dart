@@ -54,12 +54,6 @@ class SideMenu extends StatelessWidget {
                         children: [
                           Spacer(),
                           IconButton(
-                            onPressed: () {
-                              launch("https://github.com/Nyamawi-Jimmy");
-                            },
-                            icon: SvgPicture.asset("assets/icons/github.svg"),
-                          ),
-                          IconButton(
                             onPressed: () async {
                               final message = 'Hello!';
                               final phone = '+254718845069';
@@ -71,6 +65,24 @@ class SideMenu extends StatelessWidget {
                               }
                             },
                             icon: SvgPicture.asset("assets/icons/whatsapp.svg",color: Colors.grey,),
+                          ),
+                          IconButton(
+                            onPressed: () {
+                              launch("https://github.com/Nyamawi-Jimmy");
+                            },
+                            icon: SvgPicture.asset("assets/icons/github.svg"),
+                          ),
+                          GestureDetector(
+                            onTap: () {
+                              launch("tel:+254718845069");
+                            },
+                            child: Text(
+                              "+254718845069",
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                color: Colors.grey.withOpacity(1),
+                              ),
+                            ),
                           ),
                           Spacer(),
                         ],
