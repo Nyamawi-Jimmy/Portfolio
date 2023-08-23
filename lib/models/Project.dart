@@ -6,6 +6,20 @@ class Project {
 
 List<Project> demo_projects = [
   Project(
+      title: "Doctor Appointment App/Health Connect ",
+      description:
+      "Introducing the Doctor Appointment App – your convenient and efficient way to schedule and manage medical appointments with ease. Say goodbye to long waiting times on hold or struggling to find the right time slot for your next doctor's visit. With our app, your healthcare needs are just a few taps away. " ),
+  Project(
+      title: "Spotinder ",
+      description:
+      "The ultimate app that brings music lovers together through their shared passion for music genres! Are you tired of swiping through endless profiles on dating apps only to find out that you and your match have completely different taste in music? Look no further, as Spotinder is here to connect you with like-minded individuals who share your musical preferences. " ),
+
+  Project(
+      title: "Recipe App",
+      description:
+      "The ultimate app that brings music lovers together through their shared passion for music genres! Are you tired of swiping through endless profiles on dating apps only to find out that you and your match have completely different taste in music? Look no further, as Spotinder is here to connect you with like-minded individuals who share your musical preferences. " ),
+
+  Project(
     title: "Payment/My Bills Flutter App ",
     description:
     "Payment or Bills App helps you track expenses, transactions, monthly budgets, account balances, subscriptions, expenses and taxes. We calculate your net worth and spending trends and help you with your budget plan. We'll help manage subscriptions and notify you when prices go up. " ),
