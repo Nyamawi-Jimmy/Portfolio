@@ -24,7 +24,6 @@ class Knowledges extends StatelessWidget {
         ),
         KnowledgeText(text: "Flutter, Dart"),
         KnowledgeText(text: "Laravel"),
-        KnowledgeText(text: "Python Django"),
         KnowledgeText(text: "Firebase"),
         KnowledgeText(text: "GIT Knowledge"),
       ],
